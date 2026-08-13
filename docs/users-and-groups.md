@@ -1,4 +1,3 @@
-```markdown
 # Users and Groups
 
 Users represent individual identities that can access the OCI Console, APIs, or CLI.
