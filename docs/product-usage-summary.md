@@ -5,7 +5,7 @@
 Oracle Cloud Infrastructure Identity and Access Management
 
 ## Purpose
-I created this repository after being accepted into the Oracle ACE Apprentice Program to document my product usage and understanding of OCI IAM access control.
+This repository documents my product usage and understanding of OCI IAM access control.
 
 ## What I Created
 I created a structured IAM access control guide covering:
