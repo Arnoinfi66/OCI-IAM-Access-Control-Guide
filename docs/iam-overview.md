@@ -2,7 +2,7 @@
 
 Identity and Access Management in Oracle Cloud Infrastructure is used to control who can access cloud resources and what actions they can perform.
 
-OCI IAM supports two main access control areas:
+OCI IAM supports two main areas:
 
 - Authentication: confirming the identity of a user or service
 - Authorization: deciding what actions that identity is allowed to perform
@@ -30,3 +30,11 @@ flowchart TD
     C --> D[Policy]
     D --> E[Compartment]
     E --> F[OCI Resource]
+```
+
+---
+
+## What I Understood
+
+My main understanding is that creating a user alone does not give proper access in OCI.
+Access has to be controlled through groups, policies, and compartments. Groups define who gets access, policies define what they can do, and compartments define where the access applies.
