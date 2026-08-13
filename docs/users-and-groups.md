@@ -12,20 +12,17 @@ In OCI, permissions are usually assigned to groups through policies instead of a
 
 A DevOps group may include users who need access to manage compute instances.
 
-```text
+
 Group: DevOps
 
 Users:
 - User 1
 - User 2
 - User 3
-```
 
 A policy can then be written for the DevOps group.
 
-```text
 Allow group DevOps to manage instance-family in compartment Development
-```
 
 ---
 
