@@ -8,15 +8,19 @@ A policy connects a subject, an action, a resource type, and a location.
 
 ## Basic Policy Format
 
+```text
 Allow group <group-name> to <verb> <resource-type> in compartment <compartment-name>
-
+```
 ---
 
 ## Policy Components
 
 A policy usually includes:
 
-Allow group <group-name> to <verb> <resource-type> in compartment <compartment-name>
+- Subject: the group or dynamic group receiving access
+- Verb: the level of access
+- Resource type: the OCI resource being accessed
+- Scope: the tenancy or compartment where the access applies
 
 ---
 
