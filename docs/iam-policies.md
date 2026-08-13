@@ -16,10 +16,7 @@ Allow group <group-name> to <verb> <resource-type> in compartment <compartment-n
 
 A policy usually includes:
 
-- Subject: the group or dynamic group receiving access
-- Verb: the level of access
-- Resource type: the OCI resource being accessed
-- Scope: the tenancy or compartment where the access applies
+Allow group <group-name> to <verb> <resource-type> in compartment <compartment-name>
 
 ---
 
