@@ -62,20 +62,14 @@ This repository covers the following OCI IAM components:
 - Basic access flow
 - Least privilege access control
 
-```
-
 ## What I Understood
 
 The key point from this exercise is that OCI IAM should not be viewed only as users and passwords.
-
 A proper access control model depends on how users, groups, policies, compartments, and service identities work together. Group membership decides who receives access, policies define what actions are allowed, and compartments define where that access applies.
-
 For workloads such as compute instances, dynamic groups and instance principals help avoid storing API keys directly on servers.
-
 This helped me understand IAM from an access control and governance perspective.
 
 ---
 
 ## Confidentiality Note
-
 All examples in this repository are based on my own product usage and documentation. No client-confidential, proprietary, or project-specific information is included.
