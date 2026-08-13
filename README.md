@@ -62,24 +62,6 @@ This repository covers the following OCI IAM components:
 - Basic access flow
 - Least privilege access control
 
----
-
-## Repository Structure
-
-```text
-architecture/
-  iam-access-flow.md
-
-docs/
-  iam-overview.md
-  users-and-groups.md
-  compartments.md
-  iam-policies.md
-  dynamic-groups-and-instance-principals.md
-  advanced-iam-access-patterns.md
-  product-usage-summary.md
-
-README.md
 ```
 
 ## What I Understood
